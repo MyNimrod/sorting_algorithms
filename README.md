@@ -118,5 +118,19 @@ You can assume that array will contain only numbers >= 0
 You are allowed to use malloc and free for this task
 You’re expected to print the array each time you increase your significant digit (See example below)
 Files--> 105-radix_sort.c
+###10.Bitonic-sort
+Write a function that sorts an array of integers in ascending order using the Bitonic sort algorithm
+
+Prototype: void bitonic_sort(int *array, size_t size);
+You can assume that size will be equal to 2^k, where k >= 0 (when array is not NULL …)
+You are allowed to use printf
+You’re expected to print the array each time you swap two elements (See example below)
+Output: see example
+Write in the file 106-O, the big O notations of the time complexity of the Bitonic sort algorithm, with 1 notation per line:
+
+in the best case
+in the average case
+in the worst case
+Files--> 106-bitonic_sort.c, 106-O
 
 
