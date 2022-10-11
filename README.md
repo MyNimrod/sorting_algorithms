@@ -145,4 +145,11 @@ in the best case
 in the average case
 in the worst case
 Files--> 107-quick_sort_hoare.c, 107-O
+###12.Dealer
+Write a function that sorts a deck of cards.
+
+Prototype: void sort_deck(deck_node_t **deck);
+You are allowed to use the C standard library function qsort
+Please use the following data structures:
+Files--> 1000-sort_deck.c, deck.h
 
